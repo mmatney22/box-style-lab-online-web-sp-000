@@ -56,6 +56,13 @@ h4.indifferent {
   box-shadow:  -1px 1px #8c171d, -2px 2px #8c171d, -3px 3px #8c171d, -4px 4px #8c171d, -5px 5px #8c171d;
 }
 
+h4.dubious {
+  background: linear-gradient(
+  to right, 
+  #8c171d, 
+  #dd4444
+  );
+}
 .column {
   width: 30%;
   display: inline-block;
@@ -77,10 +84,6 @@ h4.indifferent {
 img {
   border: 2px solid #4d4d4d;
   box-sizing: border-box;
-}
-
-h4.indifferent {
-  background: linear-gradient(to right, #949400, #dddd22)
 }
 
 h4.dubious {
