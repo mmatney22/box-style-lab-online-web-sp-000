@@ -43,6 +43,14 @@ h4.amiable {
   box-shadow:  -1px 1px #949400, -2px 2px #949400, -3px 3px #949400, -4px 4px #949400, -5px 5px #949400;
 }
 
+h4.indifferent {
+  background: linear-gradient(
+  to right, 
+  #949400, 
+  #dddd22
+  );
+}
+
 .dubious {
   background-color: #dd4444;
   box-shadow:  -1px 1px #8c171d, -2px 2px #8c171d, -3px 3px #8c171d, -4px 4px #8c171d, -5px 5px #8c171d;
@@ -69,10 +77,6 @@ h4.amiable {
 img {
   border: 2px solid #4d4d4d;
   box-sizing: border-box;
-}
-
-h4.amiable {
-  background: linear-gradient(to right, #22aa44, #44cc66 )
 }
 
 h4.indifferent {
